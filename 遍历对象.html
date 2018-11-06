@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		
+		// var obj = {
+		// 	name: '皮卡丘',
+		// 	gender: '雄性',
+		// 	skill:['电光火石', '十万伏特',],
+		// 	attack: function (){
+		// 		console.log(this.name + '攻击')
+		// 	}
+		// }
+
+		// // console.log(obj.name);
+		// // console.log(obj['name']);
+
+		// for (var key in obj) {
+		// 	console.log(key + '---' + obj[key]);
+		// }obj[name];
+			
+		
+		var object = {}
+			
+		for (var i = 0; i < 10; i++){
+			object['a' + i] = i * 2;
+		}
+		
+		console.log(object);
+		
+		for (var key in object) {
+			console.log(key + ':' + object[key]);
+		}
+
+		// var key 相当于一个变量
+		// in object 相当于对象里面所有的属性
+		
+		
+		// object.name
+		// object[name]
+	</script>
+</body>
+</html>
